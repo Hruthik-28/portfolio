@@ -4,5 +4,7 @@ import Footer from "./Footer";
 import Cardlg from "./Cardlg";
 import ProjectListing from "./ProjectListing";
 import InfiniteCards from "./InfiniteCards";
+import StacksListing from "./StacksListing";
+import StackCard from "./StackCard";
 
-export {Header, HomeIntro, Footer, Cardlg, ProjectListing, InfiniteCards}
+export {Header, HomeIntro, Footer, Cardlg, ProjectListing, InfiniteCards, StacksListing, StackCard}

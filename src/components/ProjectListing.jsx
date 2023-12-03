@@ -22,7 +22,7 @@ function ProjectListing() {
             icon: "https://uploads-ssl.webflow.com/64470065adf2a67f8abcbb4d/64470065adf2a6168bbcbb82_thumbnial-kortinq.svg", 
             title: "Youtube + Twitter", 
             keyword: "Coming Soon", 
-            image: "/public/youtube.png",
+            image: "/youtube.png",
             bgColor: "#501028" 
         },
     ]
