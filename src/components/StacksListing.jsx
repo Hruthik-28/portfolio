@@ -79,12 +79,12 @@ function StacksListing() {
     ]
     const tools = [
         {
-            icon: "/public/stacks/git.png", 
+            icon: "/stacks/git.png", 
             title: "Git", 
             keyword: "VersionControl"
         },
         {
-            icon: "/public/stacks/vs.png", 
+            icon: "/stacks/vs.png", 
             title: "VsCode", 
             keyword: "Editor"
         },
