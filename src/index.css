@@ -38,3 +38,33 @@ html {
     background: #555;
     cursor: pointer;
   }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-90%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 14s linear infinite;
+  display: inline-flex;
+}
+
+@media (max-width: 640px) {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-500%);
+    }
+  }
+
+  .animate-scroll{
+    animation-duration: 30s;
+  }
+
+}

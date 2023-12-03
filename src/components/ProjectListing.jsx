@@ -6,21 +6,23 @@ function ProjectListing() {
             icon: "https://uploads-ssl.webflow.com/64470065adf2a67f8abcbb4d/64470065adf2a66d02bcbb81_thumbnial-shoppop.svg",
             title: "Just Blog It", 
             keyword: "React, Redux, Appwrite, Authentication, File Management ", 
-            image: "/public/astronaut.jpg",
-            bgColor: "#0084FF"
+            image: "https://images.pexels.com/photos/19359843/pexels-photo-19359843/free-photo-of-blog.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            bgColor: "#0084FF",
+            link: "https://justblogit.netlify.app/"
         },
         {
             icon: "https://uploads-ssl.webflow.com/64470065adf2a67f8abcbb4d/64470065adf2a6125fbcbb83_thumbnial-byteleaders.svg", 
             title: "Todo Breeze", 
             keyword: "React, ContextApi, Local Storage, Tailwind", 
-            image: "/public/astronaut.jpg",
-            bgColor: "#f1c40f" 
+            image: "https://images.pexels.com/photos/19359924/pexels-photo-19359924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            bgColor: "#f1c40f" ,
+            link:"https://todobreeze.netlify.app/"
         },
         {
             icon: "https://uploads-ssl.webflow.com/64470065adf2a67f8abcbb4d/64470065adf2a6168bbcbb82_thumbnial-kortinq.svg", 
-            title: "Todo Breeze", 
-            keyword: "React, ContextApi, Local Storage, Tailwind", 
-            image: "/public/astronaut.jpg",
+            title: "Youtube + Twitter", 
+            keyword: "Coming Soon", 
+            image: "/public/youtube.png",
             bgColor: "#501028" 
         },
     ]
@@ -37,6 +39,7 @@ function ProjectListing() {
                             keyword={item.keyword} 
                             image={item.image} 
                             bgColor={item.bgColor}
+                            link={item.link? item.link: null}
                             key={item.title}
                         />
                     )

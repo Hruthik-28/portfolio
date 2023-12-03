@@ -1,10 +1,7 @@
 import {HomeIntro, InfiniteCards, ProjectListing} from '../components/index'
-import { animateImagesRightToLeft } from '../Helpers/gsap'
 
 function Home() {
-
-    animateImagesRightToLeft('homeTwo')
-
+    window.scrollTo(0, 0)
     return (
         <>
         <HomeIntro />

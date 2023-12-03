@@ -18,24 +18,4 @@ const animateLeftToRight = (className) => {
   }, [className]);
 };
 
-const animateImagesRightToLeft = (className) => {
-  useEffect(() => {
-    const images = document.querySelectorAll(`.${className}`);
-
-    const tl = gsap.timeline({ repeat: -1 });
-
-    gsap.set(images, { x: '100%' });
-
-    tl.fromTo(
-      images,
-      { x: '100%' },
-      {
-        x: '-100%',
-        duration: 10,
-        ease: 'linear',
-      }
-    );
-  }, [className]);
-}
-
-export {animateLeftToRight, animateImagesRightToLeft};
+export {animateLeftToRight};
