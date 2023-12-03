@@ -6,5 +6,6 @@ import ProjectListing from "./ProjectListing";
 import InfiniteCards from "./InfiniteCards";
 import StacksListing from "./StacksListing";
 import StackCard from "./StackCard";
+import AboutSection from "./AboutSection";
 
-export {Header, HomeIntro, Footer, Cardlg, ProjectListing, InfiniteCards, StacksListing, StackCard}
+export {Header, HomeIntro, Footer, Cardlg, ProjectListing, InfiniteCards, StacksListing, StackCard, AboutSection}
