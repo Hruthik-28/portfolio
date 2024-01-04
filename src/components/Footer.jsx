@@ -35,8 +35,12 @@ function Footer() {
                     </Link>
                 </div>
                 <div className=" flex gap-5 justify-center py-5">
-                    <p className="opacity-50 hover:opacity-100 cursor-pointer">justBlogIt</p>
+                    <Link to={'https://justblogit.netlify.app/'}>
+                        <p className="opacity-50 hover:opacity-100 cursor-pointer">justBlogIt</p>
+                    </Link>
+                    <Link to={'https://todobreeze.netlify.app/'}>
                     <p className="opacity-50 hover:opacity-100 cursor-pointer">todoBreeze</p>
+                    </Link>
                 </div>
             </div>
             

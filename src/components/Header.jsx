@@ -1,6 +1,6 @@
 import { LuCode2 } from "react-icons/lu";
 import { NavLink } from 'react-router-dom';
-import { BiLogoLinkedin, BiLogoInstagramAlt } from "react-icons/bi";
+import { BiLogoLinkedin, BiLogoInstagramAlt, BiLogoTwitter } from "react-icons/bi";
 import { useEffect, useState } from "react";
 
 function Header() {
@@ -35,6 +35,11 @@ function Header() {
             logo: <BiLogoInstagramAlt />,
             url: "https://www.instagram.com/hruthik__28/"
         },
+        {
+            title: "twitter",
+            logo: <BiLogoTwitter />,
+            url: "https://twitter.com/hruthik_28"
+        }
     ]
 
     function generateRandomColor() {
